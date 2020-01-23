@@ -18,7 +18,7 @@ function check_code(){
 
     function toPython(usrdata){
         $.ajax({
-            url: "http://localhost:8000",
+            url: "http://localhost:5000",
             type: "POST",
             data: { information : "You have a very nice website, sir." , userdata : usrdata},
             dataType: "json",
